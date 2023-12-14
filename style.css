@@ -1,5 +1,7 @@
 body{
    margin: 0px; 
+   font-family: sans-serif;
+
 }
 .div1{
     display: flex;
@@ -28,6 +30,7 @@ body{
     margin-left: 20px;
     
 }
+
 a{
     text-decoration: none;
     font-weight: bold;
@@ -39,7 +42,7 @@ a{
 .buton1{
 
     padding: 13px;
-    background-color: rgb(240, 64, 64);
+    background-color: #FF5959;
     border: none;
     border-radius: 6px;
     color: white;
@@ -71,7 +74,7 @@ a{
     padding: 15px 25px;
 }
 .div7{
-    border: 2px solid red;
+    border: 2px solid #FF5959;
     background-color: rgb(252, 229, 229);
     padding: 15px 25px;
 }
@@ -103,7 +106,7 @@ a{
     margin-left: 15px;
 }
 .div11 span{
-    font-size: 18px;
+
     color: rgb(145, 143, 143);
 }
 .img5{
@@ -147,7 +150,7 @@ a{
 }
 .buton2 {
     padding: 13px;
-    background-color: rgb(240, 64, 64);
+    background-color: #FF5959;
     border: none;
     border-radius: 6px;
     color: white;
@@ -181,10 +184,11 @@ a{
     padding: 12px;
     width: 200px;
     border-radius: 5px 0px 0px 5px;
+    outline: none;
 }
 .div22{
     border: none;
-    background-color: rgb(240, 64, 64);
+    background-color: #FF5959;
     color: white;
     padding: 12px;
     width: 160px;
@@ -199,5 +203,6 @@ a{
     color: white;
 }
 .h1-10{
-    color: rgb(240, 64, 64);
+    color: #FF5959;
+    font-style: oblique;
 }
