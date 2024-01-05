@@ -214,9 +214,9 @@
         font-style: oblique;
     }
     .but1{
-    background-color: #FBF7F7;
+    background: none;
     border: none;
-    color: white;
+    color: #FBF7F7;
 }
 
 .but2{
@@ -229,9 +229,7 @@
     background-color: black;
     color: white;
 }
-.position{
-    position: fixed;
-}
+
     </style>
 
 <style>
@@ -509,7 +507,7 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 .but2{
-    background-color: black;
+    background: none;
     border: none;
 }
 
@@ -525,14 +523,14 @@ input:checked + .slider:before {
 </style>
 <!-- //style// -->
 
-
+<link rel="stylesheet" href="style.css">
 <script src="https://kit.fontawesome.com/cfd50280ac.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
+    <button class="but1 position" onclick="reStyle(0)">white mood</button>
+    <button class="but2 position" onclick="reStyle(1)">dark mood</button>
     <section class="sec1">
-        <button class="but1" onclick="reStyle(0)">white mood</button>
-        <button class="but2" onclick="reStyle(1)">dark mood</button>
         <div class="div1">
             <div class="div2">
                 <span class="h1-1">Let’s Help <br>
